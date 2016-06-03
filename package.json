@@ -1,0 +1,31 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "QR Code generator app built on Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejeinc/qr-code-generator.git"
+  },
+  "keywords": [
+    "QR",
+    "QRCode"
+  ],
+  "author": "eje inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejeinc/qr-code-generator/issues"
+  },
+  "homepage": "https://github.com/ejeinc/qr-code-generator",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "bower": "^1.7.9"
+  },
+  "dependencies": {
+    "qr-image": "^3.1.0"
+  }
+}
